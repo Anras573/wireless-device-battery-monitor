@@ -89,6 +89,7 @@ void PollSteelSeriesElite(PollContext& ctx);  // SteelSeries Arctis Nova Elite b
 void PollAudeze(PollContext& ctx);        // Audeze Maxwell (VID 3329) dongle or cable
 void PollEndorfy(PollContext& ctx);       // ENDORFY Viro Wireless dongle (3738:0072), Airoha RACE battery query
 void PollTurtleBeach(PollContext& ctx);   // Turtle Beach Stealth 700 Gen 3 (10F5:2251 / 2262 transmitters, 2253 cable)
+void PollTurtleBeachPureAir(PollContext& ctx);  // Turtle Beach Pure Air mouse on its dongle (10F5:5012)
 void PollAkg(PollContext& ctx);           // AKG N9 Hybrid on its USB dongle (0ECB:20D9), Airoha RACE battery query
 void PollNzxt(PollContext& ctx);          // NZXT Lift Elite Wireless (1E71:2101 / 2129)
 void PollPlantronics(PollContext& ctx);   // Poly / Plantronics headsets behind the BT600 adapter (047F)
